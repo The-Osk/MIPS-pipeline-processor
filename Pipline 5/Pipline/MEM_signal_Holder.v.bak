@@ -1,0 +1,29 @@
+module MEM_signal_Holder(
+
+
+input Store_Byte,
+input Mem_Write,
+input Mem_Read,
+input clk,
+
+
+
+output reg Store_Byte_Hold,
+output reg Mem_Write_Hold,
+output reg Mem_Read_Hold
+);
+
+always@(posedge clk)begin
+
+Store_Byte_Hold=Store_Byte;
+
+Mem_Write_Hold=Mem_Write;
+
+Mem_Read_Hold=Mem_Read;
+
+
+
+
+end 
+
+endmodule

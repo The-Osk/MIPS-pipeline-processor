@@ -1,0 +1,18 @@
+module EXE_MEM_Holder(
+/*module EXE_MEM(output reg  out_EXE_MEM_Reg_Write_ctrl, out_EXE_MEM_Mem_Or_Reg, out_EXE_MEM_Byte_word,   //WB control signals
+									 out_EXE_MEM_Store_Byte, out_EXE_MEM_Mem_Write, out_EXE_MEM_Mem_Read,			//Mem control signals
+						output reg [31:0] out_EXE_MEM_Mem_Address,
+												out_EXE_MEM_Read_Data2,
+												out_EXE_MEM_ALU_Result,
+						output reg[4:0]   out_EXE_MEM_Reg_Write_Address,
+									
+						);*/
+
+
+						input out_EXE_MEM_Reg_Write_ctrl, out_EXE_MEM_Mem_Or_Reg, out_EXE_MEM_Byte_word,   //WB control signals
+									 out_EXE_MEM_Store_Byte, out_EXE_MEM_Mem_Write, out_EXE_MEM_Mem_Read,
+						input [31:0] out_EXE_MEM_ALU_Result,
+						input [4:0] out_EXE_MEM_Reg_Write_Address
+						
+
+);

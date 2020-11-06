@@ -1,0 +1,903 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\New folder\Pipline 4\Pipline\simulation\modelsim
+vAdd_Branch
+Ibj<o[L1Fk5]b26G;XOS@a1
+VFdMoz>c@AhHQzB8]`58BJ3
+Z1 dC:\Users\user\Desktop\New folder\Pipline 4\Pipline\simulation\modelsim
+Z2 w1577109696
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Add_Branch.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Add_Branch.v
+L0 1
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-work work -O0
+n@add_@branch
+!i10b 1
+!s100 3eD=?B`IA7G5XLk3CdZS_2
+!s85 0
+!s108 1577161116.929000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Add_Branch.v|
+!s90 -reportprogress|300|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Add_Branch.v|
+!s101 -O0
+vALU
+IbTQM76]Jjdd5<lVHkR4JW3
+V27E8CE[^ES_DRgKD1g4670
+R1
+w1577158775
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU.v
+L0 1
+R3
+r1
+31
+R4
+n@a@l@u
+!i10b 1
+!s100 4mY[10O4GiTJE1T0zbYJ12
+!s85 0
+!s108 1577161117.016000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU.v|
+!s101 -O0
+vALU_Test
+IMLUIUk21kJWj2Nn[`ca1M3
+V:d>z9J_cM4T]mbZNEG=Fo1
+R1
+R2
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU_Test.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU_Test.v
+L0 1
+R3
+r1
+31
+R4
+n@a@l@u_@test
+!i10b 1
+!s100 NiVTE2ha>T6ZnDaN];YkX3
+!s85 0
+!s108 1577161117.111000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU_Test.v|
+!s90 -reportprogress|300|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU_Test.v|
+!s101 -O0
+vBranch_Or_Not
+IYOfJNXPZ7fO7gLQ7^czgi0
+Ve]PCa;WYBC][DH]0M?>ZH1
+R1
+R2
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Branch_Or_Not.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Branch_Or_Not.v
+L0 1
+R3
+r1
+31
+R4
+n@branch_@or_@not
+!i10b 1
+!s100 2VZhozU5RV`c>KkjUoNFQ1
+!s85 0
+!s108 1577161117.199000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Branch_Or_Not.v|
+!s90 -reportprogress|300|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Branch_Or_Not.v|
+!s101 -O0
+vCLK
+IT`?P?fbG6?d;P[ak;[FWO1
+Vgl3D;QB[N8@3QGnT>26lA1
+R1
+Z5 w1577109674
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/CLK.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/CLK.v
+L0 1
+R3
+r1
+31
+R4
+n@c@l@k
+!i10b 1
+!s100 NM3KC];5J0ZWVlUj[Hk6N0
+!s85 0
+!s108 1577161117.285000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/CLK.v|
+!s90 -reportprogress|300|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/CLK.v|
+!s101 -O0
+vComparator
+In4XU9fME00PS>>`dA=l<Q1
+V9Z<Q_@]C8[9fR9aTSBSNJ0
+R1
+R5
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Comparator.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Comparator.v
+L0 1
+R3
+r1
+31
+R4
+n@comparator
+!i10b 1
+!s100 EZT4U@Ig`lAK@kVI8UPGd3
+!s85 0
+!s108 1577161117.374000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Comparator.v|
+!s90 -reportprogress|300|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Comparator.v|
+!s101 -O0
+vcontrol_unit
+IO_]7LPa]^YT8NWL`b6e2c0
+V^]]d4WEDm@1dN59U[JZd@0
+R1
+w1577159570
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v
+L0 1
+R3
+r1
+31
+R4
+!i10b 1
+!s100 Y0j[kaYiVBzc[3MleUlWl0
+!s85 0
+!s108 1577161117.466000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v|
+!s90 -reportprogress|300|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v|
+!s101 -O0
+vData_Mem
+IDD?3iLQ6m:`ULH=6^IFFF1
+V]84z>FEOc56@;z3Qghf^G3
+R1
+w1577150909
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Data_Mem.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Data_Mem.v
+L0 1
+R3
+r1
+31
+R4
+n@data_@mem
+!i10b 1
+!s100 oG9V[1[>ogNfi>oYNe]OD3
+!s85 0
+!s108 1577161117.571000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Data_Mem.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Data_Mem.v|
+!s101 -O0
+vEXE_MEM
+IW_WI5Se<;9aH6nTnfmil=2
+VV3Uk[>i;Z21LaP]I3zLOJ2
+R1
+w1577159742
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM.v
+L0 1
+R3
+r1
+31
+R4
+n@e@x@e_@m@e@m
+!i10b 1
+!s100 [lOeO:ieY6<>^S<SZbkCl0
+!s85 0
+!s108 1577161117.662000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM.v|
+!s101 -O0
+vEXE_MEM_Holder
+IP[zXizm:Q7ICP[7Fb6US=2
+Vg8R[JnZ>5fR8V10NVaVY=2
+R1
+w1577109676
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM_Holder.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM_Holder.v
+L0 1
+R3
+r1
+31
+R4
+n@e@x@e_@m@e@m_@holder
+!i10b 1
+!s100 ?UEZ3e8mOH09Mlng=1M3;0
+!s85 0
+!s108 1577161117.756000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM_Holder.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM_Holder.v|
+!s101 -O0
+vFloating_Reg_File
+IIaC0:LIM>]<[j2ogY_>RZ2
+VdD]KPiZHn[c0JZGbCnJfS1
+R1
+w1577160230
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v
+L0 1
+R3
+r1
+31
+R4
+n@floating_@reg_@file
+!i10b 1
+!s100 B0PRR4dj>XUB^jiYh]Czd1
+!s85 0
+!s108 1577161117.851000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v|
+!s101 -O0
+vForward_AMUX
+IV_:?4dK2;IenXZRR@@god3
+VI30dWoYA9XUn`EXnbGD^h3
+R1
+Z6 w1577109678
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_AMUX.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_AMUX.v
+L0 1
+R3
+r1
+31
+R4
+n@forward_@a@m@u@x
+!i10b 1
+!s100 _zh=ak9TogjGbfAhm<BA82
+!s85 0
+!s108 1577161117.967000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_AMUX.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_AMUX.v|
+!s101 -O0
+vForward_BMUX
+IUCKzN]ZHcX6KHMncC6^zN0
+VWBl39mg42DH?;0QM>n4kG3
+R1
+R6
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_BMUX.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_BMUX.v
+L0 1
+R3
+r1
+31
+R4
+n@forward_@b@m@u@x
+!i10b 1
+!s100 ?Ra;^3D2nN?=]f4NOU^3g2
+!s85 0
+!s108 1577161118.083000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_BMUX.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_BMUX.v|
+!s101 -O0
+vForwarding
+IAfgzfk_1ckM_OR_a6]If:0
+VamHSUmV;:Sa;N>edgIJ5@3
+R1
+R6
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forwarding.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forwarding.v
+L0 1
+R3
+r1
+31
+R4
+n@forwarding
+!i10b 1
+!s100 oa;]U1>YzdkKZKZYRj1_h0
+!s85 0
+!s108 1577161118.201000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forwarding.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forwarding.v|
+!s101 -O0
+vID_EXE
+I99@PZg>VHO[hC^OcXIS_h3
+Vo^Zi5XGgS?cm0gJ5E^OL52
+R1
+w1577160617
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ID_EXE.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/ID_EXE.v
+L0 1
+R3
+r1
+31
+R4
+n@i@d_@e@x@e
+!i10b 1
+!s100 DkmP9BbbKAF29L7X]`z?=3
+!s85 0
+!s108 1577161118.327000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ID_EXE.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ID_EXE.v|
+!s101 -O0
+vIF_ID
+IQ6k`Y2JHOdzgU0TCiLajD1
+VYW=c75mTiN9;gDh9di29F2
+R1
+R6
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID.v
+L0 1
+R3
+r1
+31
+R4
+n@i@f_@i@d
+!i10b 1
+!s100 QX9G^dkU7?FZSFCd?8LLm2
+!s85 0
+!s108 1577161118.507000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID.v|
+!s101 -O0
+vIF_ID_Holder
+I??9jkoK[13ncXMEjNTHQH0
+VbDo6m`=3X]ZdKf5zEEVcE0
+R1
+w1577109680
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID_Holder.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID_Holder.v
+L0 1
+R3
+r1
+31
+R4
+n@i@f_@i@d_@holder
+!i10b 1
+!s100 <G;F8[6VbY8z4de2?]S;12
+!s85 0
+!s108 1577161118.642000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID_Holder.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID_Holder.v|
+!s101 -O0
+vInstruc_Mem
+IKTzQRUVd=cK`Z2<WKz5]B2
+V<83;fcNcWMN>0Ha;5Y]B_2
+R1
+w1577160343
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Instruc_Mem.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Instruc_Mem.v
+L0 2
+R3
+r1
+31
+R4
+n@instruc_@mem
+!i10b 1
+!s100 @FT_aZgUIm]NfkC2n]]jg3
+!s85 0
+!s108 1577161118.773000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Instruc_Mem.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Instruc_Mem.v|
+!s101 -O0
+vJump_Address_Hold
+I@jOdD^TGCVDaG_U]ba@^]1
+V;I<S4?9Fc=FCDdSmR4lL<2
+R1
+Z7 w1577109686
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Jump_Address_Hold.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Jump_Address_Hold.v
+L0 1
+R3
+r1
+31
+R4
+n@jump_@address_@hold
+!i10b 1
+!s100 ABF5Ti]XBzH=5Y6eW3Y1@0
+!s85 0
+!s108 1577161118.883000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Jump_Address_Hold.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Jump_Address_Hold.v|
+!s101 -O0
+vLoad_Hazard
+I=e]J4MG1ie5XQF5UaD<D40
+V81mRiDZc]>CmEK@z[be[z2
+R1
+R7
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Load_Hazard.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Load_Hazard.v
+L0 1
+R3
+r1
+31
+R4
+n@load_@hazard
+!i10b 1
+!s100 18FTH[S0Wi0dY<iLb`GBh1
+!s85 0
+!s108 1577161119.010000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Load_Hazard.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Load_Hazard.v|
+!s101 -O0
+vMEM_signal_Holder
+IFid:3eYQ0Xde0@QC;gdab3
+Vi@PZ>f]`=5_Xf_?<VaodF3
+R1
+R7
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_signal_Holder.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_signal_Holder.v
+L0 1
+R3
+r1
+31
+R4
+n@m@e@m_signal_@holder
+!i10b 1
+!s100 T==ADfFAWQ4Hj@nFbMIco2
+!s85 0
+!s108 1577161119.127000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_signal_Holder.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_signal_Holder.v|
+!s101 -O0
+vMEM_WB
+I71lIkoGcMH=X?cbMB?JnB0
+V2b>K?R=WQ;lk^n6Ib5^RY1
+R1
+w1577160231
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB.v
+L0 1
+R3
+r1
+31
+R4
+n@m@e@m_@w@b
+!i10b 1
+!s100 aUL3Fno7CLKL@j^M<5:GP1
+!s85 0
+!s108 1577161119.236000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB.v|
+!s101 -O0
+vMEM_WB_Holder
+ICozJ7?CY0N`?ekHGi>zLO2
+VG4PD_QbLni?<^fN;>]3Me1
+R1
+Z8 w1577109688
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB_Holder.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB_Holder.v
+L0 2
+R3
+r1
+31
+R4
+n@m@e@m_@w@b_@holder
+!i10b 1
+!s100 cRSfTa:_4?C]j>Qm]S5jQ0
+!s85 0
+!s108 1577161119.359000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB_Holder.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB_Holder.v|
+!s101 -O0
+vMUX_Branch
+I27YX4?;c1Ac_KU]Nl=IdB2
+VHMX^FijcAmdPdMYWj;k`21
+R1
+R8
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_Branch.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_Branch.v
+L0 1
+R3
+r1
+31
+R4
+n@m@u@x_@branch
+!i10b 1
+!s100 af8c8]JibW_Sd7J<Za<bl1
+!s85 0
+!s108 1577161119.468000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_Branch.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_Branch.v|
+!s101 -O0
+vMUX_PC
+I>LWoW0F]7g6AE1^6emSeB3
+VOEo^MM]XA1zzBL;iH4kfL2
+R1
+R8
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_PC.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_PC.v
+L0 1
+R3
+r1
+31
+R4
+n@m@u@x_@p@c
+!i10b 1
+!s100 i1P2TDC9IkK?Xgg_lo5Ej3
+!s85 0
+!s108 1577161119.597000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_PC.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_PC.v|
+!s101 -O0
+vOp1_MUX
+IOK<]89OZbGCkILGG_foHB0
+VdQkeQdXYWQSDN=9MDS0lJ0
+R1
+R8
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op1_MUX.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op1_MUX.v
+L0 1
+R3
+r1
+31
+R4
+n@op1_@m@u@x
+!i10b 1
+!s100 RW8g>U7HiAfioEHfB[Qe13
+!s85 0
+!s108 1577161119.705000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op1_MUX.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op1_MUX.v|
+!s101 -O0
+vOp2_MUX
+Ick@hHEzU?BlN]JSJEfI1F3
+V@RChPB;iHCK^FS71dT0<C3
+R1
+R8
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op2_MUX.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op2_MUX.v
+L0 1
+R3
+r1
+31
+R4
+n@op2_@m@u@x
+!i10b 1
+!s100 Ad8c>TnD@mYfVL8VjfA833
+!s85 0
+!s108 1577161119.825000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op2_MUX.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op2_MUX.v|
+!s101 -O0
+vPC_Add4
+Il1l>QfFAgOboVjY^Z<Tj63
+V:a3BNEiNcXeCUiDYIjUL93
+R1
+R8
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Add4.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Add4.v
+L0 1
+R3
+r1
+31
+R4
+n@p@c_@add4
+!i10b 1
+!s100 D1?JRNXI@]dm<RXW[b4dL2
+!s85 0
+!s108 1577161119.941000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Add4.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Add4.v|
+!s101 -O0
+vPC_Holder
+I`_<?54G`GZ;R?;@Ha2ZdB0
+Vn1:njbWPJM;_b3HC0P:Rh3
+R1
+Z9 w1577109690
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Holder.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Holder.v
+L0 1
+R3
+r1
+31
+R4
+n@p@c_@holder
+!i10b 1
+!s100 PYcBQb?<[C^8k4fb0hMfX1
+!s85 0
+!s108 1577161120.061000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Holder.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Holder.v|
+!s101 -O0
+vPC_Reg
+I:Wh8Emh13LgT2Y>f?YaBE1
+VgT^cc7`2hT<:glgVG`U[f2
+R1
+R9
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Reg.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Reg.v
+L0 1
+R3
+r1
+31
+R4
+n@p@c_@reg
+!i10b 1
+!s100 dKfS_VEez80QWQTIcjhbZ0
+!s85 0
+!s108 1577161120.168000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Reg.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Reg.v|
+!s101 -O0
+vPipline
+I09Q>XdXTknGGX@3mAj=d[0
+V@JT;YA1J_[S]J^S;E7oU^1
+R1
+R9
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline.v
+L0 1
+R3
+r1
+31
+R4
+n@pipline
+!i10b 1
+!s100 meUNAAZQTH`Yk9mBDP7L13
+!s85 0
+!s108 1577161120.254000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline.v|
+!s101 -O0
+vPipline2
+I8>7EfMOb4BP]FZlBCigEP0
+VJk__Ik@8nYRKn5b7FZBaH3
+R1
+w1577161107
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v
+L0 1
+R3
+r1
+31
+R4
+n@pipline2
+!i10b 1
+!s100 >VhW@CZeo_M;VK:TZPoWo1
+!s85 0
+!s108 1577161120.350000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v|
+!s101 -O0
+vRead_Data2_Holder
+I9JjLTo@dLCf2m3^NVH0PG2
+Vlnhi]RnC_HgO^MGm4W?f33
+R1
+Z10 w1577109692
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Read_Data2_Holder.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Read_Data2_Holder.v
+L0 1
+R3
+r1
+31
+R4
+n@read_@data2_@holder
+!i10b 1
+!s100 VG]NKPH<DYI`dmY[EaUTN0
+!s85 0
+!s108 1577161120.449000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Read_Data2_Holder.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Read_Data2_Holder.v|
+!s101 -O0
+vReg_Destination_MUX
+IgJMIBLV4D^?h6jTzE6[:91
+V7V[NQb4ka8Zo]ZI`L9<Xm2
+R1
+R10
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_MUX.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_MUX.v
+L0 1
+R3
+r1
+31
+R4
+n@reg_@destination_@m@u@x
+!i10b 1
+!s100 VBDR0[R0^[a^2C1mm7;=G3
+!s85 0
+!s108 1577161120.549000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_MUX.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_MUX.v|
+!s101 -O0
+vReg_Destination_Or_Ra_MUX
+IAYEj@oTDzaHPQaoLYdGZG3
+VN<e2Ek9>bk@z9W0=o1ozI3
+R1
+R10
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_Or_Ra_MUX.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_Or_Ra_MUX.v
+L0 1
+R3
+r1
+31
+R4
+n@reg_@destination_@or_@ra_@m@u@x
+!i10b 1
+!s100 HC<2g0A[R1WgQ`gBJ==<?2
+!s85 0
+!s108 1577161120.640000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_Or_Ra_MUX.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_Or_Ra_MUX.v|
+!s101 -O0
+vReg_Dst_Holder
+I2:DlO[65h[V8b<dCf^1jm1
+VRKH0JVQD0nZITES2mR7WC3
+R1
+R10
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Dst_Holder.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Dst_Holder.v
+L0 1
+R3
+r1
+31
+R4
+n@reg_@dst_@holder
+!i10b 1
+!s100 GU8B@IDFI`63M1AJN1cd`2
+!s85 0
+!s108 1577161120.732000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Dst_Holder.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Dst_Holder.v|
+!s101 -O0
+vReg_File
+In58AKWhK9VmK=dMb1=gf:0
+V`_oE^i:glXPRnbj6>ned:2
+R1
+w1577155448
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_File.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_File.v
+L0 1
+R3
+r1
+31
+R4
+n@reg_@file
+!i10b 1
+!s100 P:_4I`mjJSIBI]nA=jK^a2
+!s85 0
+!s108 1577161120.831000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_File.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_File.v|
+!s101 -O0
+vtest
+IF`hBJbzoIlXcD=lYG?LDj1
+Vk<3<[f=78GX=_HO53D;7>3
+R1
+w1577155749
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/test.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/test.v
+L0 1
+R3
+r1
+31
+R4
+!i10b 1
+!s100 O>AzFG930>3^6BAN[a?hk1
+!s85 0
+!s108 1577161120.928000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/test.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/test.v|
+!s101 -O0
+vTest_CLK
+I@T<hBTF>]>>KO:Fej6eJY1
+V2EN]jgGj0T4SSP4O<KIOe2
+R1
+Z11 w1577109694
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_CLK.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_CLK.v
+L0 1
+R3
+r1
+31
+R4
+n@test_@c@l@k
+!i10b 1
+!s100 >33cZTdbgLdR:mkG<fSSI2
+!s85 0
+!s108 1577161121.031000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_CLK.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_CLK.v|
+!s101 -O0
+vTest_Data_Mem
+Iao>W1=75NPI6I<jnAXPfd3
+VkNeNgP?N4o5?ZJB@Z98210
+R1
+R11
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Data_Mem.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Data_Mem.v
+L0 1
+R3
+r1
+31
+R4
+n@test_@data_@mem
+!i10b 1
+!s100 2oSEZlEZCfX4ghX=IJW4X2
+!s85 0
+!s108 1577161121.160000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Data_Mem.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Data_Mem.v|
+!s101 -O0
+vTest_Instruc_mem
+I2Pa8;T57^bf8;aC:2KT?z2
+V<C3fHOn6@:4?J_;NSIQA10
+R1
+R11
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Instruc_mem.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Instruc_mem.v
+L0 1
+R3
+r1
+31
+R4
+n@test_@instruc_mem
+!i10b 1
+!s100 0iHiE9;5ojB=D69]JMXCd1
+!s85 0
+!s108 1577161121.278000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Instruc_mem.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Instruc_mem.v|
+!s101 -O0
+vTest_PC_Add4
+IHgZ1=mYdNZ6@KXHoaf;LJ1
+VA[HlK8a:zL=0JZKi?9VCQ1
+R1
+R11
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_PC_Add4.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_PC_Add4.v
+L0 1
+R3
+r1
+31
+R4
+n@test_@p@c_@add4
+!i10b 1
+!s100 RLDG:=Fb5c7HR?eD:[1A`1
+!s85 0
+!s108 1577161121.380000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_PC_Add4.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_PC_Add4.v|
+!s101 -O0
+vTest_Reg_File
+I?D6]l`W]RD;lo_:_mYaGL0
+VF?fXSLLgo1EG:F?6NhV=d3
+R1
+R11
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Reg_File.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Reg_File.v
+L0 1
+R3
+r1
+31
+R4
+n@test_@reg_@file
+!i10b 1
+!s100 SV6T?7;oILzf]L_@k3R6^1
+!s85 0
+!s108 1577161121.471000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Reg_File.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Reg_File.v|
+!s101 -O0
+vTop_Module
+IR^@6[oncW0QEgCoW0JIBz1
+VcbR]P774o<mzYnSDjoj1V0
+R1
+R11
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Top_Module.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/Top_Module.v
+L0 1
+R3
+r1
+31
+R4
+n@top_@module
+!i10b 1
+!s100 =@F<QcdCLUg[lTPgTGCMM0
+!s85 0
+!s108 1577161121.591000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Top_Module.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Top_Module.v|
+!s101 -O0
+vWB_signal_Holder
+!i10b 1
+!s100 ZOASfg`e?c2GW@U0JR4T52
+ImW4I3G@o[hL@J?;ONZ>Bj0
+Voh8gHz;@E5S_U0>KE]dcM0
+R1
+R2
+8C:/Users/user/Desktop/New folder/Pipline 4/Pipline/WB_signal_Holder.v
+FC:/Users/user/Desktop/New folder/Pipline 4/Pipline/WB_signal_Holder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1577161121.719000
+!s107 C:/Users/user/Desktop/New folder/Pipline 4/Pipline/WB_signal_Holder.v|
+!s90 -reportprogress|30|-work|work|C:/Users/user/Desktop/New folder/Pipline 4/Pipline/WB_signal_Holder.v|
+!s101 -O0
+R4
+n@w@b_signal_@holder

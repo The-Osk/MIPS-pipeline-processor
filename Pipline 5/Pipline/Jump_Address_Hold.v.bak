@@ -1,0 +1,9 @@
+module Jump_Address_Hold(
+input [31:0]Jmp_Address,
+output reg [31:0]Jmp_Address_Hold,
+input clk);
+
+always@(posedge clk)begin
+Jmp_Address_Hold=Jmp_Address;
+end
+endmodule

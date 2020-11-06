@@ -1,0 +1,5 @@
+|Top_Module
+x => ~NO_FANOUT~
+y <= <GND>
+
+

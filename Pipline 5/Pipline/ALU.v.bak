@@ -1,0 +1,46 @@
+module ALU(
+//this module is an ALU
+output reg [31:0]Result,
+output reg zero,
+input [31:0]Op1,
+input [31:0]Op2,
+input[5:0]Operation
+);
+always @(*)
+begin
+//add,addImm,addUnsigned
+case(Operation)
+'h20: Result = Op1+Op2;
+//and, and Immediate
+'h14: Result= Op1 & Op2;
+//nor
+'h27: Result= ~(Op1 | Op2);
+//or , OR Immediate
+'h25: Result = Op1 | Op2;
+//SetLessThan 
+'h2a:if(Op1 < Op2)
+ Result=1;
+else
+ Result=0;
+ //SetLessThan Unsingned
+ 'h2b:if(Op1 < Op2)
+ Result=1;
+else
+ Result=0;
+//Shift left Logical
+'h00:Result=Op1<<Op2;
+//shift right logical
+'h02: Result=Op1>>Op2;
+//subtract ,sub, rt-rd or rd-rt
+'h24: Result = Op1 - Op2;
+'h22: Result= Op1 - Op2;
+default Result=0;
+endcase
+//Zero Flag
+if(Result==0)
+ zero=1;
+else
+ zero=0;
+end
+endmodule 
+()

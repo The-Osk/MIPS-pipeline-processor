@@ -1,0 +1,14 @@
+module Read_Data2_Holder(
+
+input [31:0]Read_Data2,
+input clk,
+output reg [31:0]Read_Data2_Hold,
+);
+
+always@(posedge clk)begin
+
+
+Read_Data2_Hold=Read_Data2;
+
+end
+endmodule

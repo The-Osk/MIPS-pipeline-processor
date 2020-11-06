@@ -1,0 +1,7 @@
+module CLK(output reg CLK_Out);
+
+initial
+begin
+CLK_Out=0;
+end
+always #10 CLK_Out=~CLK_Out;

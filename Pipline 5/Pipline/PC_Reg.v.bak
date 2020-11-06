@@ -1,0 +1,10 @@
+module PC_Reg(
+
+input [31:0]PC,
+input clk,
+output reg [31:0]PC_Address);
+
+always@(negedge clk)begin
+PC_Address=PC;
+end
+endmodule

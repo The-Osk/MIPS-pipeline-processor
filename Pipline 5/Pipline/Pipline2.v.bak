@@ -1,0 +1,315 @@
+module Pipline2();
+//Clk
+module CLK(output reg clk);
+//Pc reg
+module PC_Reg(
+
+input [31:0] out_MUXPC_Address,
+input clk,
+output reg [31:0] out_PC_Address
+);
+
+//Add4 
+module PC_Add4(
+input [31:0]out_PC_Address,
+output reg [31:0]out_Add4_PC_4,
+input clk
+);
+
+//Instruction Memory
+module Instruc_Mem(
+input clk,//not used
+input [31:0]out_PC_Address,
+output reg [31:0] out_Instruction_Data
+);
+//IF_ID
+module IF_ID(
+input [31:0] out_Instruction_Data,
+input [31:0] out_Add4_PC_4,
+output reg [5:0]out_IF_ID_Opcode,
+output reg [5:0]out_IF_ID_Funct,
+output reg [31:0] out_IF_ID_PC_4,
+output reg [31:0]out_IF_ID_Jump_Address,
+output reg [4:0]out_IF_ID_Read_Address1,
+output reg[4:0]out_IF_ID_Read_Address2,
+output reg[15:0]out_IF_ID_Immidiate,
+output reg [4:0]out_IF_ID_Shift_Amount,
+output reg[4:0]out_IF_ID_Rt_Address,
+output reg[4:0]out_IF_ID_Rd_Address,
+output reg[4:0]out_IF_ID_Rs_Address,
+input clk
+);
+//Control Unit
+module control_unit(
+			output reg  Reg_Write_Ctrl,
+							Reg_Read_Ctrl,
+							Reg_Destination,
+							Reg_Wrt_Adrs_Slect,
+							Is_Brnch_not_Eql,
+							Is_Branch_on_Equl,
+							Store_Byte,
+							Mem_Write,
+							Mem_Read,
+							Byte_Word,
+							Mem_Or_Reg,
+							out_Control_Unit_mflo,
+							out_Control_Unit_mfhi,
+							out_Control_Unit_HiLo_Ctrl,
+					
+			output reg[1:0] pc_src,Zero_Or_Rs,
+			output reg[2:0] ALU_Src,
+			output reg[5:0] operation,
+			input [5:0] opcode,funct,
+			input clk
+					);
+					
+//Reg File
+module Reg_File(
+output reg [31:0]out_Reg_File_Read_Data1,
+output reg [31:0]out_Reg_File_Read_Data2,
+input [4:0] out_IF_ID_Read_Address1,
+input [4:0] out_IF_ID_Read_Address2,
+input [4:0] out_IF_ID_Rd_Address,
+input[4:0]  out_MEM_WB_Reg_Write_Address,
+input[31:0] out_MEM_WB_Reg_Write_Data,
+input[31:0] out_MEM_WB_Reg_Write_Data2,
+input out_Control_Unit_Reg_Read_Ctrl,
+input out_MEM_WB_Reg_Write_ctrl,
+input out_MEM_WB_Reg_Write_HiLo_Ctrl,
+input out_Control_Unit_mfhi,
+input out_Control_Unit_mflo,
+input clk
+);
+
+//Forward MUX A
+module Forward_AMUX(
+input [1:0]ForwardA,
+input [31:0]ALU_Result,
+input [31:0]out_Data_Mem_Read_Data,
+input [31:0]out_Reg_File_Read_Data1,
+output reg [31:0]out_Forward_AMUX_Read_Data1
+);
+
+//Forward MUX B
+module Forward_BMUX(
+input [1:0]ForwardB,
+input [31:0]ALU_Result,
+input [31:0]out_Data_Mem_Read_Data,
+input [31:0]out_Reg_File_Read_Data2,
+output reg [31:0]out_Forward_BMUX_Read_Data2
+);
+
+//ID_EXE
+module ID_EXE(
+input out_Control_Unit_Reg_Destination,
+input out_Control_Unit_Reg_Wrt_Adrs_Slect,
+input out_Control_Unit_Is_Brnch_not_Eql,
+input out_Control_Unit_Is_Branch_on_Equl,
+input [1:0]out_Control_Unit_pc_src,
+input [1:0]out_Control_Unit_Zero_Or_Rs,
+input [2:0]out_Control_Unit_ALU_Src,
+input [5:0]out_Control_Unit_Operation,
+//mem signals
+input out_Control_Unit_Store_Byte,
+input out_Control_Unit_Mem_Write,
+input out_Control_Unit_Mem_Read,
+//WB signals
+input out_Control_Unit_Reg_Write_Ctrl,
+input out_Control_Unit_Byte_Word,
+input out_Control_Unit_Mem_Or_Reg,
+input out_Control_Unit_Write_HiLo_Ctrl,
+input [31:0]out_PC_Holder_PC_4,
+input [31:0]out_IF_ID_Jump_Address,
+input [31:0]out_Forward_AMUX_Read_Data1,//**
+input [31:0]out_Forward_BMUX_Read_Data2,
+input [15:0]out_IF_ID_Immidiate,
+input [4:0]out_IF_ID_Shift_Amount,
+input [4:0]out_IF_ID_Rt_Address,
+input [4:0]out_IF_ID_Rd_Address,
+input [4:0]out_IF_ID_Rs_Address,
+input clk,
+
+output reg out_ID_EXE_Reg_Write_Ctrl,
+output reg out_ID_EXE_Byte_Word,
+output reg out_ID_EXE_Mem_Or_Reg,
+output reg out_ID_EXE_Store_Byte,
+output reg out_ID_EXE_Mem_Write,
+output reg out_ID_EXE_Mem_Read,
+output reg out_ID_EXE_Reg_Write_HiLo_Ctrl,
+output reg[1:0] out_ID_EXE_pc_src,
+output reg [31:0]out_ID_EXE_Jump_Address,
+output reg [31:0]out_ID_EXE_Jump_Reg_Address,
+output reg [31:0]out_ID_EXE_PC_4,
+output reg out_ID_EXE_Reg_Destination,
+output reg out_ID_EXE_Reg_Wrt_Adrs_Slect,
+output reg out_ID_EXE_Is_Brnch_not_Eql,
+output reg out_ID_EXE_Is_Branch_on_Equl,
+output reg [1:0]out_ID_EXE_Zero_Or_Rs,
+output reg [2:0]out_ID_EXE_ALU_Src,
+output reg [5:0]out_ID_EXE_Operation,
+output reg [31:0]out_ID_EXE_Forward_AMUX_Read_Data1,
+output reg [31:0]out_ID_EXE_Forward_BMUX_Read_Data2,
+output reg [15:0]out_ID_EXE_Immidiate,
+output reg [4:0]out_ID_EXE_Shift_Amount,
+output reg [4:0]out_ID_EXE_Rt_Address,
+output reg [4:0]out_ID_EXE_Rd_Address,
+output reg [4:0]out_ID_EXE_Rs_Address
+);
+//Branch Or Not
+module Branch_Or_Not(
+
+input  Zero,
+input out_ID_EXE_Is_Brnch_not_Eql,
+input out_ID_EXE_Is_Branch_on_Equl,
+
+output out_Branch_Or_Not_Branch_Or_Not
+);
+
+//Comparator
+module Comparator(
+
+input[31:0]out_ID_EXE_Forward_AMUX_Read_Data1,
+input [31:0]out_ID_EXE_Forward_BMUX_Read_Data2,
+output reg Zero
+);
+//Add Branch
+module Add_Branch(
+input [31:0]out_ID_EXE_PC_4,
+input [15:0]out_ID_EXE_Immidiate,
+output [31:0]out_Add_Branch_Branch_Address
+);
+
+//Op1 MUX
+module Op1_MUX(
+
+input [1:0]out_ID_EXE_Zero_Or_Rs,
+input [31:0]out_ID_EXE_Forward_AMUX_Read_Data1,
+input [31:0]out_ID_EXE_PC_4,
+output reg [31:0] out_Op1_MUX_Op1);
+
+//Op2 Mux
+module Op2_MUX(
+
+input [2:0]out_ID_EXE_ALU_Src,
+input [31:0]out_ID_EXE_Forward_BMUX_Read_Data2,
+input [15:0]out_ID_EXE_Immidiate,
+input [4:0]out_ID_EXE_Shift_Amount,
+
+output reg [31:0]out_Op2_MUX_Op2
+);
+//Reg Destination MUX 
+module Reg_Destination_MUX(
+
+input [4:0]out_ID_EXE_Rt_Address,
+input [4:0]out_ID_EXE_Rd_Address,
+input out_ID_EXE_Reg_Destination,
+output reg [4:0]out_Reg_Destination_MUX_Reg_Write_Address
+);
+
+//Reg Destination Or Rd
+module Reg_Destination_Or_Ra_MUX(
+
+input [4:0]out_Reg_Destination_MUX_Reg_Write_Address,
+input out_ID_EXE_Reg_Wrt_Adrs_Slect,
+output [4:0]out_Reg_Destination_Or_Ra_MUX_Reg_Destination_Address
+);
+//Forwarding
+module Forwarding (
+
+output reg [1:0]ForwardA,
+output reg [1:0]ForwardB,
+
+input out_ID_EXE_Reg_Write_Ctrl,
+input out_Control_Unit_Reg_Write_Ctrl,
+input [4:0]out_ID_EXE_Reg_Destination_Address,//Destination of Primary R
+
+input out_EXE_MEM_Reg_Write_ctrl,
+input [4:0]out_EXE_MEM_Reg_Write_Address,//Destination of primary I (Load)
+
+input [4:0]out_IF_ID_Read_Address1,//Source 1 of Dependant R
+input [4:0]out_IF_ID_Read_Address2//Source 2 of Dependant R
+
+
+);
+
+//ALU
+module ALU(
+output reg signed [31:0]ALU_Result,
+output reg signed [31:0]ALU_Result2,
+input signed[31:0]out_ID_EXE_Op1,
+input signed[31:0]out_ID_EXE_Op2,
+input[5:0]out_ID_EXE_Operation,
+input clk//not used
+);
+//EXE_MEM
+module EXE_MEM(
+						output reg  out_EXE_MEM_Reg_Write_ctrl, 
+										out_EXE_MEM_Mem_Or_Reg, 
+										out_EXE_MEM_Byte_word,   //WB control signals
+										out_EXE_MEM_Write_HiLo_Ctrl,
+										
+									   out_EXE_MEM_Store_Byte, 
+										out_EXE_MEM_Mem_Write, 
+										out_EXE_MEM_Mem_Read,			//Mem control signals
+										
+						output reg [31:0] out_EXE_MEM_Mem_Address,
+												out_EXE_MEM_Read_Data2,
+												out_EXE_MEM_ALU_Result, out_EXE_MEM_ALU_Result2,
+						output reg[4:0]   out_EXE_MEM_Reg_Write_Address,
+										
+						input out_WB_singal_Holder_Reg_Write_Ctrl, out_WB_singal_Holder_Byte_Word, out_WB_singal_Holder_Mem_Or_Reg, out_ID_EXE_Reg_Write_HiLo_Ctrl,   //WB control signals
+								out_MEM_signal_Holder_Store_Byte, out_MEM_signal_Mem_Write, out_MEM_signal_Mem_Read,			//Mem control signals
+								
+						input	[31:0] ALU_Result, ALU_Result2,
+										 out_Read_Data2_Holder_Read_Data2,
+						input [4:0]	 out_Reg_Dst_Holder_Reg_Destination_Address,
+						input		clk
+						
+						
+						);
+//Data Memory 
+module Data_Mem(
+output reg [31:0]out_Data_Mem_Read_Data,
+input [31:0]out_EXE_MEM_Mem_Address,
+input [31:0]out_EXE_MEM_Read_Data2,//write data 
+input out_EXE_MEM_Store_Byte,//1byte 0word
+input out_EXE_MEM_Mem_Write,
+input out_EXE_MEM_Mem_Read,
+input clk);
+
+//MEM_WB
+module MEM_WB(
+
+output reg  out_MEM_WB_Reg_Write_ctrl, out_MEM_WB_Reg_Write_HiLo_Ctrl,
+output reg [31:0] out_MEM_WB_Reg_Write_Data, out_MEM_WB_Reg_Write_Data2,
+output reg [4:0] out_MEM_WB_Reg_Write_Address,
+								
+input out_EXE_MEM_Reg_Write_ctrl, out_EXE_MEM_Mem_Or_Reg, 
+input out_EXE_MEM_Byte_word,
+		out_EXE_MEM_Write_HiLo_Ctrl,
+		clk, //control signals
+
+input [31:0]out_EXE_MEM_ALU_Result, out_EXE_MEM_ALU_Result2,
+input [31:0]out_Data_Mem_Read_Data,  //from memeory
+input [4:0] out_EXE_MEM_Reg_Write_Address						
+);
+//MUX PC
+module MUX_PC(
+input [31:0]out_Add4_PC_4,
+input [31:0]out_ID_EXE_Jump_Address,
+input [31:0]out_MUX_Branch_Branch_Address,
+input [31:0]out_ID_EXE_Jump_Reg_Address,
+input [1:0]out_ID_EXE_pc_src,
+output reg [31:0]out_MUXPC_Address,
+input clk//not used 
+);
+//MUX Branch
+module MUX_Branch(
+input out_ID_EXE_Branch_or_Not,
+input [31:0]out_ID_EXE_Branch_Address,
+input [31:0]out_ID_EXE_PC_4,
+input clk,
+output reg [31:0]out_MUX_Branch_Branch_Address
+);
+
+

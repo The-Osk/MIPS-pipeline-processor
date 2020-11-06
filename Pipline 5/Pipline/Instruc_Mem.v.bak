@@ -1,0 +1,12 @@
+module Instruc_Mem(
+input [31:0]Address,
+output reg [31:0] Instruction_Data
+);
+
+[1023:0] reg [31:0] Instruction;
+
+always @(*)//posedge clk
+begin
+instruction_Data = Instruction[Address];
+end
+endmodule

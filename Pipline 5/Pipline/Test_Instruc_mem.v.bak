@@ -1,0 +1,22 @@
+module Test_Instruc_mem();
+/*module Instruc_Mem(
+input [31:0]Address,
+output reg [31:0] Instruction_Data
+);*/
+
+reg [31:0]Address;
+wire [31:0]Instruction_Data;
+
+Instruc_Mem Instruc_Mem_1(Address,Instruction_Data);
+
+
+initial
+begin
+
+Address=0;
+
+#2 $display("the Result is = %b , and the Zero is = %b",Address,Instruction_Data);
+
+
+end
+endmodule

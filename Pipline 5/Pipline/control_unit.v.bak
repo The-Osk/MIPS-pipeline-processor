@@ -1,0 +1,278 @@
+module control_unit(
+			output reg Reg_Write_Ctrl,
+							Reg_Read_Ctrl,
+							Reg_Destination,
+							Reg_Wrt_Adrs_Slect,
+							Is_Brnch_not_Eql,
+							Is_Branch_on_Equl,
+							Store_Byte,
+							Mem_Write,
+							Mem_Read,
+							Byte_Word,
+							Mem_Or_Reg,
+					
+			output reg[1:0] pc_src,Zero_Or_Rs,
+			output reg[2:0] ALU_Src,
+			output reg[5:0] operation,
+			input [5:0] opcode,funct,
+			input clk
+					);
+					
+					initial begin
+							pc_src = 2'b00;
+							Reg_Write_Ctrl = 1'b0;
+							Reg_Read_Ctrl = 1'b0;					//need to send fuct to aly control
+							Zero_Or_Rs = 2'b00;
+							Reg_Destination = 1'b0;
+							Reg_Wrt_Adrs_Slect = 1'b0;
+							Is_Brnch_not_Eql = 1'b0;
+							Is_Branch_on_Equl = 1'b0;
+							Store_Byte = 1'b0;
+							Mem_Write = 1'b0;
+							Mem_Read = 1'b0;
+							Byte_Word = 1'b0;
+							Mem_Or_Reg = 1'b0;
+							operation = 6'b0;
+					end
+					
+				always @(posedge clk) begin
+				// reset the singals
+							pc_src = 2'b00;
+							Reg_Write_Ctrl = 1'b0;
+							Reg_Read_Ctrl = 1'b0;					//need to send fuct to aly control
+							Zero_Or_Rs = 2'b00;
+							Reg_Destination = 1'b0;
+							Reg_Wrt_Adrs_Slect = 1'b0;
+							Is_Brnch_not_Eql = 1'b0;
+							Is_Branch_on_Equl = 1'b0;
+							Store_Byte = 1'b0;
+							Mem_Write = 1'b0;
+							Mem_Read = 1'b0;
+							Byte_Word = 1'b0;
+							Mem_Or_Reg = 1'b0;
+				
+				// do nwe take the opcode as hex or bi
+				//refactor the code later
+							if (opcode == 6'h1) begin //R-type
+								
+								if (funct == 6'h20) begin //add
+								Reg_Write_Ctrl= 1'b1;
+								Reg_Read_Ctrl = 1'b1;
+								Reg_Destination =1'b1;
+								Mem_Or_Reg = 2'b01;
+								operation = 2'h20;
+								end
+								
+								if(funct == 6'h14) begin  //and
+								Reg_Write_Ctrl= 1'b1;
+								Reg_Read_Ctrl = 1'b1;
+								Reg_Destination =1'b1;
+								Mem_Or_Reg = 2'b01;
+								operation = 2'h14;
+								end
+								
+								if(funct == 6'h27) begin  // nor
+								Reg_Write_Ctrl= 1'b1;
+								Reg_Read_Ctrl = 1'b1;
+								Reg_Destination =1'b1;
+								Mem_Or_Reg = 2'b01;
+								operation = 2'h27;
+								end
+								
+								if(funct == 6'h25) begin  // or
+								Reg_Write_Ctrl= 1'b1;
+								Reg_Read_Ctrl = 1'b1;
+								Reg_Destination =1'b1;
+								Mem_Or_Reg = 2'b01;
+								operation = 2'h25;
+								end
+								
+								if(funct == 6'h2a) begin // slt
+								Reg_Write_Ctrl= 1'b1;
+								Reg_Read_Ctrl = 1'b1;
+								Reg_Destination =1'b1;
+								Mem_Or_Reg = 2'b01;
+								operation = 'h2a;
+								end
+								
+								if(funct == 6'h2b) begin  // sltu
+								Reg_Write_Ctrl= 1'b1;
+								Reg_Read_Ctrl = 1'b1;
+								Reg_Destination =1'b1;
+								Mem_Or_Reg = 2'b01;
+								operation = 'h2b;
+								end
+								
+								if(funct == 6'h00) begin  //sll
+								Reg_Write_Ctrl= 1'b1;
+								Reg_Read_Ctrl = 1'b1;
+								Reg_Destination =1'b1;
+								Mem_Or_Reg = 2'b01;
+								operation = 'h00;
+								end
+								
+								if(funct == 6'h02) begin //srl
+								Reg_Write_Ctrl= 1'b1;
+								Reg_Read_Ctrl = 1'b1;
+								Reg_Destination =1'b1;
+								Mem_Or_Reg = 2'b01;
+								operation = 'h02;
+								end
+								
+								if(funct == 6'h24) begin //sub
+								Reg_Write_Ctrl= 1'b1;
+								Reg_Read_Ctrl = 1'b1;
+								Reg_Destination =1'b1;
+								Mem_Or_Reg = 2'b01;
+								operation = 'h24;
+								end
+								
+								if(funct == 6'h22) begin //subu
+								Reg_Write_Ctrl= 1'b1;
+								Reg_Read_Ctrl = 1'b1;
+								Reg_Destination =1'b1;
+								Mem_Or_Reg = 2'b01;
+								operation = 'h22;
+								end
+								
+								
+								if (funct == 6'h8) begin //ja
+									pc_src = 2'b11;
+									Reg_Read_Ctrl= 2'b1;
+									Mem_Or_Reg = 2'b1;
+									operation =  000000;
+								end
+								
+								if (funct == 6'h21) begin //lwn
+									Reg_Write_Ctrl = 1'b1;
+									Reg_Read_Ctrl = 1'b1;
+									Mem_Read = 1'b1;
+									operation = 'h20;
+									
+								end
+								
+								if (funct == 6'h13) begin //swn
+									Reg_Read_Ctrl = 1'b1;
+									Mem_Write = 1'b1;
+									operation = 'h20;
+								end
+								
+							end
+				
+				
+							if (opcode == 6'h9) begin //Addi
+								Reg_Write_Ctrl = 1'b1;
+								Reg_Read_Ctrl = 1'b1;
+								ALU_Src = 3'b001;					
+								Mem_Or_Reg = 1'b1;
+								operation = 'h20;
+							end
+				
+				
+							if(opcode == 6'h8) begin //addiu
+								Reg_Write_Ctrl = 1'b1;
+								Reg_Read_Ctrl = 1'b1;
+								ALU_Src = 3'b010;					
+								Mem_Or_Reg = 1'b1;
+								operation = 'h20;
+							end		
+				
+				
+							if(opcode == 6'h0c) begin //andi
+								Reg_Write_Ctrl = 1'b1;
+								Reg_Read_Ctrl = 1'b1;
+								ALU_Src = 3'b001;					
+								Mem_Or_Reg = 1'b1;
+								operation = 2'h14;
+							end
+			
+							if(opcode == 6'h5) begin //beq
+								pc_src = 1'b01;
+								Reg_Read_Ctrl = 1'b1;
+								ALU_Src = 3'b000;
+								Is_Branch_on_Equl = 1'b1;
+								operation = 'h24;
+							end
+				
+				
+							if(opcode == 6'h4) begin //bne
+								pc_src = 1'b01;
+								Reg_Read_Ctrl = 1'b1;
+								ALU_Src = 3'b000;
+								Is_Brnch_not_Eql = 1'b1;
+								operation = 'h24;
+							end
+				
+				
+							if(opcode == 6'h22) begin //lbu
+								Reg_Write_Ctrl = 1'b1;
+								Mem_Read = 1'b1;
+								ALU_Src = 3'b010;	
+								Byte_Word = 1'b1;
+								operation = 2'h20;
+							end
+				
+				
+							if(opcode == 6'h0f) begin //lui
+								Reg_Write_Ctrl = 1'b1;
+								Mem_Read = 1'b1;
+								ALU_Src = 3'b100;
+								Zero_Or_Rs = 1'b1;
+								operation = 2'h20;
+							end
+				
+				
+							if(opcode == 6'h12) begin //lw
+								Reg_Write_Ctrl = 1'b1;
+								Mem_Read = 1'b1;
+								ALU_Src = 3'b001;
+								operation = 2'h20;
+							end
+				
+				
+							if(opcode == 6'h0e) begin //ori
+								Reg_Write_Ctrl = 1'b1;
+								Reg_Read_Ctrl = 1'b1;
+								ALU_Src = 3'b001;					
+								Mem_Or_Reg = 1'b1;
+								operation = 2'h25;
+							end
+				
+				
+							if(opcode == 6'h28) begin //sb
+								Reg_Read_Ctrl = 1'b1;
+								ALU_Src = 3'b001;
+								Mem_Write = 1'b1;
+								Store_Byte = 1'b1;
+								operation = 2'h20;
+							end
+				
+				
+							if(opcode == 6'h2b) begin //sw
+								Reg_Read_Ctrl = 1'b1;
+								ALU_Src = 3'b001;
+								Mem_Write = 1'b1;	
+								operation = 2'h20;
+							end
+			
+							if(opcode == 6'h00) begin //j
+								pc_src = 1'b10;
+								operation = 2'h20;
+							end
+							
+							if(opcode ==6'h3) begin  //jal
+								pc_src =2'b10;
+								Reg_Write_Ctrl = 1;
+								ALU_Src = 2'b11;
+								Zero_Or_Rs = 2'b10;
+								Reg_Wrt_Adrs_Slect = 1'b1;
+								Mem_Or_Reg = 1'b1;
+								operation = 2'h20;
+							end
+			
+			
+			
+				end
+endmodule
+					
+				

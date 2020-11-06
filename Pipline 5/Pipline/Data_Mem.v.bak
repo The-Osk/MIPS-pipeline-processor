@@ -1,0 +1,8 @@
+module Data_Mem(
+output [31:0]Read_Data,
+input [31:0]Mem_Address,
+input [31:0]Write_Data,
+input Store_Byte_or_Word,
+input Mem_Write,
+input Mem_Read,
+input clk);

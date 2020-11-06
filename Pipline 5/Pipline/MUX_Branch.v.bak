@@ -1,0 +1,15 @@
+module MUX_Branch(
+input Branch_or_Not,
+input [31:0]Branch_Address,
+input [31:0]PC_4,
+input clk,
+output reg [31:0]Mux_Branch_Address
+);
+
+always@(posedge clk)begin
+case(Branch_or_Not)
+0:Mux_Branch_Address=PC_4;
+1:Mux_Branch_Address=Branch_Address;
+endcase
+end
+endmodule

@@ -1,0 +1,17 @@
+module ID_EXE(
+input Reg_Write_Ctrl,
+input Reg_Read_Ctrl,
+input Zero_Or_Rs,
+input Reg_Destination,
+input Reg_Wrt_Adrs_Slect,
+input Is_Brnch_not_Eql,
+input Is_Branch_on_Equl,
+input Store_Byte,
+input Mem_Write,
+input Mem_Read,
+input Byte_Word,
+input Mem_Or_Reg,
+input [1:0]pc_src,
+input [2:0]ALU_Src,
+input [5:0]Operation							
+);

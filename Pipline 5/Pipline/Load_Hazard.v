@@ -1,0 +1,23 @@
+module Load_Hazard(
+
+input out_ID_EXE_Mem_Read,
+input out_ID_EXE_Reg_Write_Ctrl,
+input [4:0]out_Reg_Destination_Or_Ra_MUX_Reg_Destination_Address,
+input [4:0]out_IF_ID_Read_Address1,
+input [4:0]out_IF_ID_Read_Address2,
+output reg Stall_Or_Not
+);
+initial
+begin
+Stall_Or_Not=0;
+end
+
+always@(*)begin
+if(((out_ID_EXE_Mem_Read==1)&(out_ID_EXE_Reg_Write_Ctrl==1))&((out_IF_ID_Read_Address1==out_Reg_Destination_Or_Ra_MUX_Reg_Destination_Address)|(out_IF_ID_Read_Address2==out_Reg_Destination_Or_Ra_MUX_Reg_Destination_Address)))begin
+Stall_Or_Not=1;
+end
+else begin
+Stall_Or_Not=0;
+end
+end
+endmodule

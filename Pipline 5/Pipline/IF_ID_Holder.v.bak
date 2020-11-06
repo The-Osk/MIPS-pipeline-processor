@@ -1,0 +1,13 @@
+module IF_ID_Holder(
+
+input [5:0]Op_Code,
+input [31:0] PC_4_output,
+input [31:0]Jump_Address,
+input [4:0]Read_Address1,
+input [4:0]Read_Address2,
+input [15:0]Immidiate,
+input [4:0]Shift_Amount,
+input [4:0]Rt_Address,
+input [4:0]Rd_Address,
+input [5:0]Func_Code,
+input clk

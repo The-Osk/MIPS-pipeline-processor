@@ -1,0 +1,19 @@
+module MUX_PC(
+input [31:0]PC_4,
+input [31:0]Jump_Address,
+input [31:0]Branch_Address,
+input [31:0]Jump_Reg_Address,
+input [1:0]pc_src,
+output reg [31:0]PC,
+input clk);
+
+always@(posedge clk)begin
+
+case(pc_src)
+0:PC=PC_4;
+1:PC=Branch_Address;
+2:PC=Jump_Address;
+3:PC=Jump_Reg_Address;
+endcase
+end
+endmodule

@@ -1,0 +1,11 @@
+module IF_ID(
+input [31:0] Instruction_Input,
+input [31:0] PC_4,
+output reg [31:0] Instruction_Output,
+output reg [31:0] PC_4_output,
+input clk
+);
+/*The IF/ID will read values from PC reg at NEGATIVE edge 
+save these values for the positive edge
+The IF/ID will write values to Reg_File and Control unit at POSITIVE edge 
+The IF/ID will write the PC_4 value to ID/EXE  

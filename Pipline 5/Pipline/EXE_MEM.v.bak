@@ -1,0 +1,41 @@
+module EXE_MEM(output reg out_Reg_Write_ctrl, out_Mem_Or_Reg, out_Byte_word,   //WB control signals
+									 out_Store_Byte, out_Mem_Write, out_Mem_Read,			//Mem control signals
+						output reg [31:0] out_ALU_Result,
+												out_Mem_Address,
+												out_Write_Data,
+												out_Reg_Write_Address,
+									
+						input in_Reg_Write_ctrl, in_Mem_Or_Reg, in_Byte_word,   //WB control signals
+								in_Store_Byte, in_Mem_Write, in_Mem_Read,			//Mem control signals
+						input	[31:0] in_ALU_Result,
+										 in_Mem_Address,
+										 in_Write_Data,
+										 in_Reg_Write_Address,
+								clk
+						
+						
+						);
+						
+						
+						
+						
+						always @(negedge clk) begin
+								out_Reg_Write_ctrl = in_Reg_Write_ctrl;
+								out_Mem_Or_Reg = in_Mem_Or_Reg;
+								out_Byte_word = in_Byte_word;
+								out_Store_Byte = in_Store_Byte;					//control singals
+								out_Mem_Write = in_Mem_Write;
+								out_Mem_Read = in_Mem_Read;
+								
+								
+								out_ALU_Result = in_ALU_Result;
+								out_Reg_Write_Address = in_Reg_Write_Address;
+								
+								out_Write_Data = in_Write_Data; 
+								
+								
+						
+						
+						end
+						
+endmodule

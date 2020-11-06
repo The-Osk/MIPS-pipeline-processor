@@ -1,0 +1,21 @@
+module ALU_Test;
+//this module is a ALU Test bench
+reg [31:0] Op1;
+reg [31:0] Op2;
+reg [5:0] Operation;
+wire [31:0] Result;
+wire Zero;
+
+Pipline Abdullah(Result,Zero,Op1,Op2,Operation);
+//case 0
+
+initial
+begin
+
+Op1=32'h01; Op2=32'h0A;Operation=6'h00;
+
+#1 $display("the Result is = %b , and the Zero is = %b",Result,Zero);
+
+
+end
+endmodule

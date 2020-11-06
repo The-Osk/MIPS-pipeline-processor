@@ -1,0 +1,1663 @@
+# Reading D:/alteraa/modelsim_ase/tcl/vsim/pref.tcl 
+# do Pipline_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\alteraa\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\alteraa\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Desktop/New\ folder/Pipline\ 4/Pipline {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Top_Module.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Top_Module
+# 
+# Top level modules:
+# 	Top_Module
+# 
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Add_Branch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Add_Branch
+# 
+# Top level modules:
+# 	Add_Branch
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU_Test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU_Test
+# 
+# Top level modules:
+# 	ALU_Test
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Branch_Or_Not.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Branch_Or_Not
+# 
+# Top level modules:
+# 	Branch_Or_Not
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/CLK.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module CLK
+# 
+# Top level modules:
+# 	CLK
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Comparator.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Comparator
+# 
+# Top level modules:
+# 	Comparator
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control_unit
+# ** Warning: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v(256): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v(265): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	control_unit
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Data_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Data_Mem
+# 
+# Top level modules:
+# 	Data_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EXE_MEM
+# 
+# Top level modules:
+# 	EXE_MEM
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EXE_MEM_Holder
+# 
+# Top level modules:
+# 	EXE_MEM_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Floating_Reg_File
+# 
+# Top level modules:
+# 	Floating_Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_AMUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forward_AMUX
+# 
+# Top level modules:
+# 	Forward_AMUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_BMUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forward_BMUX
+# 
+# Top level modules:
+# 	Forward_BMUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forwarding.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forwarding
+# 
+# Top level modules:
+# 	Forwarding
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ID_EXE.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ID_EXE
+# 
+# Top level modules:
+# 	ID_EXE
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module IF_ID
+# 
+# Top level modules:
+# 	IF_ID
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module IF_ID_Holder
+# 
+# Top level modules:
+# 	IF_ID_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Instruc_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Instruc_Mem
+# 
+# Top level modules:
+# 	Instruc_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Jump_Address_Hold.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Jump_Address_Hold
+# 
+# Top level modules:
+# 	Jump_Address_Hold
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Load_Hazard.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Load_Hazard
+# 
+# Top level modules:
+# 	Load_Hazard
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_signal_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_signal_Holder
+# 
+# Top level modules:
+# 	MEM_signal_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_WB
+# 
+# Top level modules:
+# 	MEM_WB
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_WB_Holder
+# 
+# Top level modules:
+# 	MEM_WB_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_Branch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MUX_Branch
+# 
+# Top level modules:
+# 	MUX_Branch
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_PC.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MUX_PC
+# 
+# Top level modules:
+# 	MUX_PC
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op1_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Op1_MUX
+# 
+# Top level modules:
+# 	Op1_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op2_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Op2_MUX
+# 
+# Top level modules:
+# 	Op2_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Add4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Add4
+# 
+# Top level modules:
+# 	PC_Add4
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Holder
+# 
+# Top level modules:
+# 	PC_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Reg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Reg
+# 
+# Top level modules:
+# 	PC_Reg
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Pipline
+# 
+# Top level modules:
+# 	Pipline
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Pipline2
+# 
+# Top level modules:
+# 	Pipline2
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Read_Data2_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Read_Data2_Holder
+# 
+# Top level modules:
+# 	Read_Data2_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Destination_MUX
+# 
+# Top level modules:
+# 	Reg_Destination_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_Or_Ra_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Destination_Or_Ra_MUX
+# 
+# Top level modules:
+# 	Reg_Destination_Or_Ra_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Dst_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Dst_Holder
+# 
+# Top level modules:
+# 	Reg_Dst_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_File
+# 
+# Top level modules:
+# 	Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_CLK.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_CLK
+# 
+# Top level modules:
+# 	Test_CLK
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Data_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Data_Mem
+# 
+# Top level modules:
+# 	Test_Data_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Instruc_mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Instruc_mem
+# 
+# Top level modules:
+# 	Test_Instruc_mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_PC_Add4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_PC_Add4
+# 
+# Top level modules:
+# 	Test_PC_Add4
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Reg_File
+# 
+# Top level modules:
+# 	Test_Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Top_Module.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Top_Module
+# 
+# Top level modules:
+# 	Top_Module
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/WB_signal_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module WB_signal_Holder
+# 
+# Top level modules:
+# 	WB_signal_Holder
+vsim work.test
+# vsim work.test 
+# Loading work.test
+# Loading work.Pipline2
+# Loading work.CLK
+# Loading work.PC_Reg
+# Loading work.PC_Add4
+# Loading work.Instruc_Mem
+# Loading work.IF_ID
+# Loading work.control_unit
+# Loading work.Reg_File
+# Loading work.Floating_Reg_File
+# Loading work.Forward_AMUX
+# Loading work.Forward_BMUX
+# Loading work.ID_EXE
+# Loading work.Load_Hazard
+# Loading work.Branch_Or_Not
+# Loading work.Comparator
+# Loading work.Add_Branch
+# Loading work.Op1_MUX
+# Loading work.Op2_MUX
+# Loading work.Reg_Destination_MUX
+# Loading work.Reg_Destination_Or_Ra_MUX
+# Loading work.Forwarding
+# Loading work.ALU
+# Loading work.EXE_MEM
+# Loading work.Data_Mem
+# Loading work.MEM_WB
+# Loading work.MUX_PC
+# Loading work.MUX_Branch
+# ** Warning: (vsim-3017) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(211): [TFMPC] - Too few port connections. Expected 7, found 6.
+# 
+#         Region: /test/Pipline21/Floating_Reg_File1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(211): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'out_IF_ID_Read_Address_1'. The port definition is at: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v(5).
+# 
+#         Region: /test/Pipline21/Floating_Reg_File1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(211): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'out_IF_ID_Read_Address_2'. The port definition is at: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v(5).
+# 
+#         Region: /test/Pipline21/Floating_Reg_File1
+# ** Warning: (vsim-3722) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(211): [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Fatal: (vsim-3365) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(289): Too many port connections. Expected 55, found 56.
+#    Time: 0 ps  Iteration: 0  Instance: /test/Pipline21/ID_EXE1 File: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ID_EXE.v
+# FATAL ERROR while loading design
+# Error loading design
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Add_Branch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Add_Branch
+# 
+# Top level modules:
+# 	Add_Branch
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU_Test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU_Test
+# 
+# Top level modules:
+# 	ALU_Test
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Branch_Or_Not.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Branch_Or_Not
+# 
+# Top level modules:
+# 	Branch_Or_Not
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/CLK.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module CLK
+# 
+# Top level modules:
+# 	CLK
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Comparator.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Comparator
+# 
+# Top level modules:
+# 	Comparator
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control_unit
+# ** Warning: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v(256): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v(265): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	control_unit
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Data_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Data_Mem
+# 
+# Top level modules:
+# 	Data_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EXE_MEM
+# 
+# Top level modules:
+# 	EXE_MEM
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EXE_MEM_Holder
+# 
+# Top level modules:
+# 	EXE_MEM_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Floating_Reg_File
+# 
+# Top level modules:
+# 	Floating_Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_AMUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forward_AMUX
+# 
+# Top level modules:
+# 	Forward_AMUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_BMUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forward_BMUX
+# 
+# Top level modules:
+# 	Forward_BMUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forwarding.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forwarding
+# 
+# Top level modules:
+# 	Forwarding
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ID_EXE.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ID_EXE
+# 
+# Top level modules:
+# 	ID_EXE
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module IF_ID
+# 
+# Top level modules:
+# 	IF_ID
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module IF_ID_Holder
+# 
+# Top level modules:
+# 	IF_ID_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Instruc_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Instruc_Mem
+# 
+# Top level modules:
+# 	Instruc_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Jump_Address_Hold.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Jump_Address_Hold
+# 
+# Top level modules:
+# 	Jump_Address_Hold
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Load_Hazard.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Load_Hazard
+# 
+# Top level modules:
+# 	Load_Hazard
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_signal_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_signal_Holder
+# 
+# Top level modules:
+# 	MEM_signal_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_WB
+# 
+# Top level modules:
+# 	MEM_WB
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_WB_Holder
+# 
+# Top level modules:
+# 	MEM_WB_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_Branch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MUX_Branch
+# 
+# Top level modules:
+# 	MUX_Branch
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_PC.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MUX_PC
+# 
+# Top level modules:
+# 	MUX_PC
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op1_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Op1_MUX
+# 
+# Top level modules:
+# 	Op1_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op2_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Op2_MUX
+# 
+# Top level modules:
+# 	Op2_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Add4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Add4
+# 
+# Top level modules:
+# 	PC_Add4
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Holder
+# 
+# Top level modules:
+# 	PC_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Reg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Reg
+# 
+# Top level modules:
+# 	PC_Reg
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Pipline
+# 
+# Top level modules:
+# 	Pipline
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Pipline2
+# 
+# Top level modules:
+# 	Pipline2
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Read_Data2_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Read_Data2_Holder
+# 
+# Top level modules:
+# 	Read_Data2_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Destination_MUX
+# 
+# Top level modules:
+# 	Reg_Destination_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_Or_Ra_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Destination_Or_Ra_MUX
+# 
+# Top level modules:
+# 	Reg_Destination_Or_Ra_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Dst_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Dst_Holder
+# 
+# Top level modules:
+# 	Reg_Dst_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_File
+# 
+# Top level modules:
+# 	Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_CLK.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_CLK
+# 
+# Top level modules:
+# 	Test_CLK
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Data_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Data_Mem
+# 
+# Top level modules:
+# 	Test_Data_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Instruc_mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Instruc_mem
+# 
+# Top level modules:
+# 	Test_Instruc_mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_PC_Add4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_PC_Add4
+# 
+# Top level modules:
+# 	Test_PC_Add4
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Reg_File
+# 
+# Top level modules:
+# 	Test_Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Top_Module.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Top_Module
+# 
+# Top level modules:
+# 	Top_Module
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/WB_signal_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module WB_signal_Holder
+# 
+# Top level modules:
+# 	WB_signal_Holder
+vsim work.test
+# vsim work.test 
+# Loading work.test
+# Loading work.Pipline2
+# Loading work.CLK
+# Loading work.PC_Reg
+# Loading work.PC_Add4
+# Loading work.Instruc_Mem
+# Loading work.IF_ID
+# Loading work.control_unit
+# Loading work.Reg_File
+# Loading work.Floating_Reg_File
+# Loading work.Forward_AMUX
+# Loading work.Forward_BMUX
+# Loading work.ID_EXE
+# Loading work.Load_Hazard
+# Loading work.Branch_Or_Not
+# Loading work.Comparator
+# Loading work.Add_Branch
+# Loading work.Op1_MUX
+# Loading work.Op2_MUX
+# Loading work.Reg_Destination_MUX
+# Loading work.Reg_Destination_Or_Ra_MUX
+# Loading work.Forwarding
+# Loading work.ALU
+# Loading work.EXE_MEM
+# Loading work.Data_Mem
+# Loading work.MEM_WB
+# Loading work.MUX_PC
+# Loading work.MUX_Branch
+# ** Warning: (vsim-3017) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(211): [TFMPC] - Too few port connections. Expected 7, found 6.
+# 
+#         Region: /test/Pipline21/Floating_Reg_File1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(211): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'out_IF_ID_Read_Address_1'. The port definition is at: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v(5).
+# 
+#         Region: /test/Pipline21/Floating_Reg_File1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(211): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'out_IF_ID_Read_Address_2'. The port definition is at: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v(5).
+# 
+#         Region: /test/Pipline21/Floating_Reg_File1
+# ** Warning: (vsim-3722) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(211): [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Fatal: (vsim-3365) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(289): Too many port connections. Expected 55, found 56.
+#    Time: 0 ps  Iteration: 0  Instance: /test/Pipline21/ID_EXE1 File: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ID_EXE.v
+# FATAL ERROR while loading design
+# Error loading design
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Add_Branch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Add_Branch
+# 
+# Top level modules:
+# 	Add_Branch
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU_Test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU_Test
+# 
+# Top level modules:
+# 	ALU_Test
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Branch_Or_Not.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Branch_Or_Not
+# 
+# Top level modules:
+# 	Branch_Or_Not
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/CLK.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module CLK
+# 
+# Top level modules:
+# 	CLK
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Comparator.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Comparator
+# 
+# Top level modules:
+# 	Comparator
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control_unit
+# ** Warning: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v(256): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v(265): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	control_unit
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Data_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Data_Mem
+# 
+# Top level modules:
+# 	Data_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EXE_MEM
+# 
+# Top level modules:
+# 	EXE_MEM
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EXE_MEM_Holder
+# 
+# Top level modules:
+# 	EXE_MEM_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Floating_Reg_File
+# 
+# Top level modules:
+# 	Floating_Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_AMUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forward_AMUX
+# 
+# Top level modules:
+# 	Forward_AMUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_BMUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forward_BMUX
+# 
+# Top level modules:
+# 	Forward_BMUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forwarding.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forwarding
+# 
+# Top level modules:
+# 	Forwarding
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ID_EXE.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ID_EXE
+# 
+# Top level modules:
+# 	ID_EXE
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module IF_ID
+# 
+# Top level modules:
+# 	IF_ID
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module IF_ID_Holder
+# 
+# Top level modules:
+# 	IF_ID_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Instruc_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Instruc_Mem
+# 
+# Top level modules:
+# 	Instruc_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Jump_Address_Hold.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Jump_Address_Hold
+# 
+# Top level modules:
+# 	Jump_Address_Hold
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Load_Hazard.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Load_Hazard
+# 
+# Top level modules:
+# 	Load_Hazard
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_signal_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_signal_Holder
+# 
+# Top level modules:
+# 	MEM_signal_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_WB
+# 
+# Top level modules:
+# 	MEM_WB
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_WB_Holder
+# 
+# Top level modules:
+# 	MEM_WB_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_Branch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MUX_Branch
+# 
+# Top level modules:
+# 	MUX_Branch
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_PC.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MUX_PC
+# 
+# Top level modules:
+# 	MUX_PC
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op1_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Op1_MUX
+# 
+# Top level modules:
+# 	Op1_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op2_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Op2_MUX
+# 
+# Top level modules:
+# 	Op2_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Add4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Add4
+# 
+# Top level modules:
+# 	PC_Add4
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Holder
+# 
+# Top level modules:
+# 	PC_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Reg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Reg
+# 
+# Top level modules:
+# 	PC_Reg
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Pipline
+# 
+# Top level modules:
+# 	Pipline
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Pipline2
+# 
+# Top level modules:
+# 	Pipline2
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Read_Data2_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Read_Data2_Holder
+# 
+# Top level modules:
+# 	Read_Data2_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Destination_MUX
+# 
+# Top level modules:
+# 	Reg_Destination_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_Or_Ra_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Destination_Or_Ra_MUX
+# 
+# Top level modules:
+# 	Reg_Destination_Or_Ra_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Dst_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Dst_Holder
+# 
+# Top level modules:
+# 	Reg_Dst_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_File
+# 
+# Top level modules:
+# 	Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_CLK.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_CLK
+# 
+# Top level modules:
+# 	Test_CLK
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Data_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Data_Mem
+# 
+# Top level modules:
+# 	Test_Data_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Instruc_mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Instruc_mem
+# 
+# Top level modules:
+# 	Test_Instruc_mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_PC_Add4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_PC_Add4
+# 
+# Top level modules:
+# 	Test_PC_Add4
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Reg_File
+# 
+# Top level modules:
+# 	Test_Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Top_Module.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Top_Module
+# 
+# Top level modules:
+# 	Top_Module
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/WB_signal_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module WB_signal_Holder
+# 
+# Top level modules:
+# 	WB_signal_Holder
+vsim work.test
+# vsim work.test 
+# Loading work.test
+# Loading work.Pipline2
+# Loading work.CLK
+# Loading work.PC_Reg
+# Loading work.PC_Add4
+# Loading work.Instruc_Mem
+# Loading work.IF_ID
+# Loading work.control_unit
+# Loading work.Reg_File
+# Loading work.Floating_Reg_File
+# Loading work.Forward_AMUX
+# Loading work.Forward_BMUX
+# Loading work.ID_EXE
+# Loading work.Load_Hazard
+# Loading work.Branch_Or_Not
+# Loading work.Comparator
+# Loading work.Add_Branch
+# Loading work.Op1_MUX
+# Loading work.Op2_MUX
+# Loading work.Reg_Destination_MUX
+# Loading work.Reg_Destination_Or_Ra_MUX
+# Loading work.Forwarding
+# Loading work.ALU
+# Loading work.EXE_MEM
+# Loading work.Data_Mem
+# Loading work.MEM_WB
+# Loading work.MUX_PC
+# Loading work.MUX_Branch
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(212): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'out_IF_ID_Read_Address_1'. The port definition is at: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v(5).
+# 
+#         Region: /test/Pipline21/Floating_Reg_File1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(212): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'out_IF_ID_Read_Address_2'. The port definition is at: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v(5).
+# 
+#         Region: /test/Pipline21/Floating_Reg_File1
+# ** Fatal: (vsim-3365) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(290): Too many port connections. Expected 55, found 56.
+#    Time: 0 ps  Iteration: 0  Instance: /test/Pipline21/ID_EXE1 File: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ID_EXE.v
+# FATAL ERROR while loading design
+# Error loading design
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Add_Branch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Add_Branch
+# 
+# Top level modules:
+# 	Add_Branch
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU_Test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU_Test
+# 
+# Top level modules:
+# 	ALU_Test
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Branch_Or_Not.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Branch_Or_Not
+# 
+# Top level modules:
+# 	Branch_Or_Not
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/CLK.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module CLK
+# 
+# Top level modules:
+# 	CLK
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Comparator.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Comparator
+# 
+# Top level modules:
+# 	Comparator
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control_unit
+# ** Warning: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v(256): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v(265): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	control_unit
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Data_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Data_Mem
+# 
+# Top level modules:
+# 	Data_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EXE_MEM
+# 
+# Top level modules:
+# 	EXE_MEM
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EXE_MEM_Holder
+# 
+# Top level modules:
+# 	EXE_MEM_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Floating_Reg_File
+# 
+# Top level modules:
+# 	Floating_Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_AMUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forward_AMUX
+# 
+# Top level modules:
+# 	Forward_AMUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_BMUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forward_BMUX
+# 
+# Top level modules:
+# 	Forward_BMUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forwarding.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forwarding
+# 
+# Top level modules:
+# 	Forwarding
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ID_EXE.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ID_EXE
+# 
+# Top level modules:
+# 	ID_EXE
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module IF_ID
+# 
+# Top level modules:
+# 	IF_ID
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module IF_ID_Holder
+# 
+# Top level modules:
+# 	IF_ID_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Instruc_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Instruc_Mem
+# 
+# Top level modules:
+# 	Instruc_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Jump_Address_Hold.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Jump_Address_Hold
+# 
+# Top level modules:
+# 	Jump_Address_Hold
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Load_Hazard.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Load_Hazard
+# 
+# Top level modules:
+# 	Load_Hazard
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_signal_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_signal_Holder
+# 
+# Top level modules:
+# 	MEM_signal_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_WB
+# 
+# Top level modules:
+# 	MEM_WB
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_WB_Holder
+# 
+# Top level modules:
+# 	MEM_WB_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_Branch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MUX_Branch
+# 
+# Top level modules:
+# 	MUX_Branch
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_PC.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MUX_PC
+# 
+# Top level modules:
+# 	MUX_PC
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op1_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Op1_MUX
+# 
+# Top level modules:
+# 	Op1_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op2_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Op2_MUX
+# 
+# Top level modules:
+# 	Op2_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Add4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Add4
+# 
+# Top level modules:
+# 	PC_Add4
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Holder
+# 
+# Top level modules:
+# 	PC_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Reg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Reg
+# 
+# Top level modules:
+# 	PC_Reg
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Pipline
+# 
+# Top level modules:
+# 	Pipline
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Pipline2
+# 
+# Top level modules:
+# 	Pipline2
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Read_Data2_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Read_Data2_Holder
+# 
+# Top level modules:
+# 	Read_Data2_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Destination_MUX
+# 
+# Top level modules:
+# 	Reg_Destination_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_Or_Ra_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Destination_Or_Ra_MUX
+# 
+# Top level modules:
+# 	Reg_Destination_Or_Ra_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Dst_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Dst_Holder
+# 
+# Top level modules:
+# 	Reg_Dst_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_File
+# 
+# Top level modules:
+# 	Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_CLK.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_CLK
+# 
+# Top level modules:
+# 	Test_CLK
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Data_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Data_Mem
+# 
+# Top level modules:
+# 	Test_Data_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Instruc_mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Instruc_mem
+# 
+# Top level modules:
+# 	Test_Instruc_mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_PC_Add4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_PC_Add4
+# 
+# Top level modules:
+# 	Test_PC_Add4
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Reg_File
+# 
+# Top level modules:
+# 	Test_Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Top_Module.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Top_Module
+# 
+# Top level modules:
+# 	Top_Module
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/WB_signal_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module WB_signal_Holder
+# 
+# Top level modules:
+# 	WB_signal_Holder
+vsim work.test
+# vsim work.test 
+# Loading work.test
+# Loading work.Pipline2
+# Loading work.CLK
+# Loading work.PC_Reg
+# Loading work.PC_Add4
+# Loading work.Instruc_Mem
+# Loading work.IF_ID
+# Loading work.control_unit
+# Loading work.Reg_File
+# Loading work.Floating_Reg_File
+# Loading work.Forward_AMUX
+# Loading work.Forward_BMUX
+# Loading work.ID_EXE
+# Loading work.Load_Hazard
+# Loading work.Branch_Or_Not
+# Loading work.Comparator
+# Loading work.Add_Branch
+# Loading work.Op1_MUX
+# Loading work.Op2_MUX
+# Loading work.Reg_Destination_MUX
+# Loading work.Reg_Destination_Or_Ra_MUX
+# Loading work.Forwarding
+# Loading work.ALU
+# Loading work.EXE_MEM
+# Loading work.Data_Mem
+# Loading work.MEM_WB
+# Loading work.MUX_PC
+# Loading work.MUX_Branch
+# ** Fatal: (vsim-3365) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(290): Too many port connections. Expected 55, found 56.
+#    Time: 0 ps  Iteration: 0  Instance: /test/Pipline21/ID_EXE1 File: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ID_EXE.v
+# FATAL ERROR while loading design
+# Error loading design
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Add_Branch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Add_Branch
+# 
+# Top level modules:
+# 	Add_Branch
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ALU_Test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU_Test
+# 
+# Top level modules:
+# 	ALU_Test
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Branch_Or_Not.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Branch_Or_Not
+# 
+# Top level modules:
+# 	Branch_Or_Not
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/CLK.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module CLK
+# 
+# Top level modules:
+# 	CLK
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Comparator.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Comparator
+# 
+# Top level modules:
+# 	Comparator
+vlog -reportprogress 300 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control_unit
+# ** Warning: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v(256): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/control_unit.v(265): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	control_unit
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Data_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Data_Mem
+# 
+# Top level modules:
+# 	Data_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EXE_MEM
+# 
+# Top level modules:
+# 	EXE_MEM
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EXE_MEM_Holder
+# 
+# Top level modules:
+# 	EXE_MEM_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Floating_Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Floating_Reg_File
+# 
+# Top level modules:
+# 	Floating_Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_AMUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forward_AMUX
+# 
+# Top level modules:
+# 	Forward_AMUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forward_BMUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forward_BMUX
+# 
+# Top level modules:
+# 	Forward_BMUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Forwarding.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Forwarding
+# 
+# Top level modules:
+# 	Forwarding
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/ID_EXE.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ID_EXE
+# 
+# Top level modules:
+# 	ID_EXE
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module IF_ID
+# 
+# Top level modules:
+# 	IF_ID
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/IF_ID_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module IF_ID_Holder
+# 
+# Top level modules:
+# 	IF_ID_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Instruc_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Instruc_Mem
+# 
+# Top level modules:
+# 	Instruc_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Jump_Address_Hold.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Jump_Address_Hold
+# 
+# Top level modules:
+# 	Jump_Address_Hold
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Load_Hazard.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Load_Hazard
+# 
+# Top level modules:
+# 	Load_Hazard
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_signal_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_signal_Holder
+# 
+# Top level modules:
+# 	MEM_signal_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_WB
+# 
+# Top level modules:
+# 	MEM_WB
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MEM_WB_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MEM_WB_Holder
+# 
+# Top level modules:
+# 	MEM_WB_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_Branch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MUX_Branch
+# 
+# Top level modules:
+# 	MUX_Branch
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/MUX_PC.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MUX_PC
+# 
+# Top level modules:
+# 	MUX_PC
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op1_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Op1_MUX
+# 
+# Top level modules:
+# 	Op1_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Op2_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Op2_MUX
+# 
+# Top level modules:
+# 	Op2_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Add4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Add4
+# 
+# Top level modules:
+# 	PC_Add4
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Holder
+# 
+# Top level modules:
+# 	PC_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/PC_Reg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_Reg
+# 
+# Top level modules:
+# 	PC_Reg
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Pipline
+# 
+# Top level modules:
+# 	Pipline
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Pipline2
+# 
+# Top level modules:
+# 	Pipline2
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Read_Data2_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Read_Data2_Holder
+# 
+# Top level modules:
+# 	Read_Data2_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Destination_MUX
+# 
+# Top level modules:
+# 	Reg_Destination_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Destination_Or_Ra_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Destination_Or_Ra_MUX
+# 
+# Top level modules:
+# 	Reg_Destination_Or_Ra_MUX
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_Dst_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_Dst_Holder
+# 
+# Top level modules:
+# 	Reg_Dst_Holder
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Reg_File
+# 
+# Top level modules:
+# 	Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_CLK.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_CLK
+# 
+# Top level modules:
+# 	Test_CLK
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Data_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Data_Mem
+# 
+# Top level modules:
+# 	Test_Data_Mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Instruc_mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Instruc_mem
+# 
+# Top level modules:
+# 	Test_Instruc_mem
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_PC_Add4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_PC_Add4
+# 
+# Top level modules:
+# 	Test_PC_Add4
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Test_Reg_File.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test_Reg_File
+# 
+# Top level modules:
+# 	Test_Reg_File
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Top_Module.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Top_Module
+# 
+# Top level modules:
+# 	Top_Module
+vlog -reportprogress 30 -work work {C:/Users/user/Desktop/New folder/Pipline 4/Pipline/WB_signal_Holder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module WB_signal_Holder
+# 
+# Top level modules:
+# 	WB_signal_Holder
+vsim work.test
+# vsim work.test 
+# Loading work.test
+# Loading work.Pipline2
+# Loading work.CLK
+# Loading work.PC_Reg
+# Loading work.PC_Add4
+# Loading work.Instruc_Mem
+# Loading work.IF_ID
+# Loading work.control_unit
+# Loading work.Reg_File
+# Loading work.Floating_Reg_File
+# Loading work.Forward_AMUX
+# Loading work.Forward_BMUX
+# Loading work.ID_EXE
+# Loading work.Load_Hazard
+# Loading work.Branch_Or_Not
+# Loading work.Comparator
+# Loading work.Add_Branch
+# Loading work.Op1_MUX
+# Loading work.Op2_MUX
+# Loading work.Reg_Destination_MUX
+# Loading work.Reg_Destination_Or_Ra_MUX
+# Loading work.Forwarding
+# Loading work.ALU
+# Loading work.EXE_MEM
+# Loading work.Data_Mem
+# Loading work.MEM_WB
+# Loading work.MUX_PC
+# Loading work.MUX_Branch
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(407): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'out_EXE_MEM_Mem_Read'. The port definition is at: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM.v(10).
+# 
+#         Region: /test/Pipline21/EXE_MEM1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(417): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'out_EXE_MEM_Mem_Read'. The port definition is at: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Data_Mem.v(7).
+# 
+#         Region: /test/Pipline21/Data_Mem1
+run
+# jr $ra
+# ra =        127 
+run
+# cycle           2
+# pc = 00000000000000000000000000000100
+run
+run
+# cycle           3
+# pc = 00000000000000000000000000001000
+run
+run
+# cycle           4
+# pc = 00000000000000000000000000001100
+run
+run
+# cycle           5
+# pc = 00000000000000000000000000010000
+run
+restart -f
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(407): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'out_EXE_MEM_Mem_Read'. The port definition is at: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM.v(10).
+# 
+#         Region: /test/Pipline21/EXE_MEM1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(417): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'out_EXE_MEM_Mem_Read'. The port definition is at: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Data_Mem.v(7).
+# 
+#         Region: /test/Pipline21/Data_Mem1
+run
+# jr $ra
+# ra =        127 
+run
+# cycle           2
+# pc = 00000000000000000000000000000100
+run
+run
+# cycle           3
+# pc = 00000000000000000000000000001000
+run
+run
+# cycle           4
+# pc = 00000000000000000000000000001100
+run
+run
+# cycle           5
+# pc = 00000000000000000000000000010000
+run
+restart -f
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(407): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'out_EXE_MEM_Mem_Read'. The port definition is at: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/EXE_MEM.v(10).
+# 
+#         Region: /test/Pipline21/EXE_MEM1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Pipline2.v(417): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'out_EXE_MEM_Mem_Read'. The port definition is at: C:/Users/user/Desktop/New folder/Pipline 4/Pipline/Data_Mem.v(7).
+# 
+#         Region: /test/Pipline21/Data_Mem1
+run
+# jr $ra
+# ra =        127 
+run
+# cycle           2
+# pc = 00000000000000000000000000000100
+run
+run
+# cycle           3
+# pc = 00000000000000000000000000001000
+run
+run
+# cycle           4
+# pc = 00000000000000000000000000001100
+run
+run
+# cycle           5
+# pc = 00000000000000000000000000010000
+run
+run
+# cycle           6
+# pc = 00000000000000000000000000010100

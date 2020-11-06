@@ -1,0 +1,9 @@
+module PC_Holder(
+input [31:0]PC_4,
+output reg [31:0]PC_4_Hold
+input clk);
+
+always@(posedge clk)begin
+PC_4_Hold=PC_4;
+end
+endmodule

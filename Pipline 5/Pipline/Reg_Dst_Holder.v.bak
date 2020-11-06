@@ -1,0 +1,13 @@
+module Reg_Dst_Holder(
+input [4:0]Reg_Destination_Address,
+input clk,
+output reg [4:0]Reg_Destination_Address_Hold
+
+);
+
+always@(posedge clk)begin
+
+Reg_Destination_Address_Hold=Reg_Destination_Address;
+
+end
+endmodule

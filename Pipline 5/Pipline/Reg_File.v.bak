@@ -1,0 +1,164 @@
+module Reg_File(
+output reg [31:0]Read_Data1,
+output reg [31:0]Read_Data2,
+input[4:0]Read_Address1,
+input[4:0]Read_Address2,
+input[4:0]Write_Address,
+input[31:0]Write_Data,
+input Read_Write_Ctrl//low->Read , High->Write
+//input clk
+);
+//Zero Reg
+reg [31:0] Zero=0;
+//$at
+reg[31:0] at;
+//V0-V1
+reg[31:0] V[1:0];
+//a0-a3
+reg[31:0] a[3:0];
+//t0-t9
+reg[31:0]  t[9:0];
+//s01-s7
+reg[31:0]  s[7:0];
+//k0-k1
+reg[31:0]  k[1:0];
+//gp(global pointer)
+reg[31:0]  gp;
+//sp (Stack Pointer)
+reg[31:0]  sp;
+//fp (Frame Pointer)
+reg[31:0]  fp;
+//ra (Return Address)
+reg[31:0]  ra;
+
+
+
+
+
+
+//Registers
+always@(*)/*negedge clk*/
+begin
+if(Read_Write_Ctrl==0)begin//read two addresses and give to outputs
+case(Read_Address1)
+0:Read_Data1=Zero;
+
+1:Read_Data1=at;
+
+2:Read_Data1=V[0];
+3:Read_Data1=V[1];
+
+4:Read_Data1=a[0];
+5:Read_Data1=a[1];
+6:Read_Data1=a[2];
+7:Read_Data1=a[3];
+
+8:Read_Data1=t[0];
+9:Read_Data1=t[1];
+10:Read_Data1=t[2];
+11:Read_Data1=t[3];
+12:Read_Data1=t[4];
+13:Read_Data1=t[5];
+14:Read_Data1=t[6];
+15:Read_Data1=t[7];
+16:Read_Data1=t[8];
+17:Read_Data1=t[9];
+
+18:Read_Data1=s[0];
+19:Read_Data1=s[1];
+20:Read_Data1=s[2];
+21:Read_Data1=s[3];
+22:Read_Data1=s[4];
+23:Read_Data1=s[5];
+24:Read_Data1=s[6];
+25:Read_Data1=s[7];
+
+26:Read_Data1=k[0];
+27:Read_Data1=k[1];
+
+28:Read_Data1=gp;
+
+29:Read_Data1=sp;
+
+30:Read_Data1=fp;
+31:Read_Data1=ra;
+
+endcase
+
+case(Read_Address2)
+0:Read_Data2=Zero;
+1:Read_Data2=at;
+2:Read_Data2=V[0];
+3:Read_Data2=V[1];
+4:Read_Data2=a[0];
+5:Read_Data2=a[1];
+6:Read_Data2=a[2];
+7:Read_Data2=a[3];
+8:Read_Data2=t[0];
+9:Read_Data2=t[1];
+10:Read_Data2=t[2];
+11:Read_Data2=t[3];
+12:Read_Data2=t[4];
+13:Read_Data2=t[5];
+14:Read_Data2=t[6];
+15:Read_Data2=t[7];
+16:Read_Data2=t[8];
+17:Read_Data2=t[9];
+18:Read_Data2=s[0];
+19:Read_Data2=s[1];
+20:Read_Data2=s[2];
+21:Read_Data2=s[3];
+22:Read_Data2=s[4];
+23:Read_Data2=s[5];
+24:Read_Data2=s[6];
+25:Read_Data2=s[7];
+26:Read_Data2=k[0];
+27:Read_Data2=k[1];
+28:Read_Data2=gp;
+29:Read_Data2=sp;
+30:Read_Data2=fp;
+31:Read_Data2=ra;
+
+endcase
+end
+end
+always@(*)
+begin
+if(Read_Write_Ctrl==1)begin
+case(Write_Address)
+1:at=Write_Data;
+2:V[0]=Write_Data;
+3:V[1]=Write_Data;
+4:a[0]=Write_Data;
+5:a[1]=Write_Data;
+6:a[2]=Write_Data;
+7:a[3]=Write_Data;
+8:t[0]=Write_Data;
+9:t[1]=Write_Data;
+10:t[2]=Write_Data;
+11:t[3]=Write_Data;
+12:t[4]=Write_Data;
+13:t[5]=Write_Data;
+14:t[6]=Write_Data;
+15:t[7]=Write_Data;
+16:t[8]=Write_Data;
+17:t[9]=Write_Data;
+18:s[0]=Write_Data;
+19:s[1]=Write_Data;
+20:s[2]=Write_Data;
+21:s[3]=Write_Data;
+22:s[4]=Write_Data;
+23:s[5]=Write_Data;
+24:s[6]=Write_Data;
+25:s[7]=Write_Data;
+26:k[0]=Write_Data;
+27:k[1]=Write_Data;
+28:gp=Write_Data;
+29:sp=Write_Data;
+30:fp=Write_Data;
+31:ra=Write_Data;
+endcase
+end
+end
+
+endmodule

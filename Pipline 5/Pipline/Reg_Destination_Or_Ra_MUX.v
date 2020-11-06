@@ -1,0 +1,14 @@
+module Reg_Destination_Or_Ra_MUX(
+
+input [4:0]out_Reg_Destination_MUX_Reg_Write_Address,
+input out_ID_EXE_Reg_Wrt_Adrs_Slect,
+output reg [4:0]out_Reg_Destination_Or_Ra_MUX_Reg_Destination_Address
+);
+
+always@(*)begin
+case(out_ID_EXE_Reg_Wrt_Adrs_Slect)
+0:out_Reg_Destination_Or_Ra_MUX_Reg_Destination_Address=out_Reg_Destination_MUX_Reg_Write_Address;
+1:out_Reg_Destination_Or_Ra_MUX_Reg_Destination_Address=31;
+endcase
+end
+endmodule

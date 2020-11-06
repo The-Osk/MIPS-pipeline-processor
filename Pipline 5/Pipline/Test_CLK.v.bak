@@ -1,0 +1,11 @@
+module Test_CLK;
+//module CLK(output reg CLK_Out);
+wire CLK_Out;
+
+CLK CLK_1(CLK_Out);
+
+initial
+begin
+#1 $display("the clock signal %b ",CLK_Out);
+end 
+endmodule

@@ -1,0 +1,20 @@
+module WB_signal_Holder(
+
+input Reg_Write_Ctrl,
+input Byte_Word,
+input Mem_Or_Reg,
+input clk,
+output reg Reg_Write_Ctrl_Hold,
+output reg Byte_Word_Hold,
+output reg Mem_Or_Reg_Hold
+);
+always@(posedge clk)begin
+Reg_Write_Ctrl_Hold=Reg_Write_Ctrl;
+Byte_Word_Hold=Byte_Word;
+Mem_Or_Reg_Hold=Mem_Or_Reg;
+
+
+
+
+end 
+endmodule
